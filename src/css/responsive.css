@@ -1,0 +1,10 @@
+@media (min-width: 375px) { 
+    
+    .fundo{
+        width: 176px;
+    }
+
+    .cartao{
+        width: 194%;
+    }
+}

@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Outfit&display=swap);
+
+body {
+    font-family: outfit;
+    background-color: hsl(220, 15%, 55%);
+    
+}
+
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 25%;
+    right: 25%;
+    width:50%;
+    margin: auto;
+    
+   
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+}
+
+.image-qrcode {
+    display: block;
+    width: 90%;
+    border-radius: 15px;
+    margin: 19px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.description {
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.cartao {
+    background-color: white;
+    border-radius: 20px;
+    width: 36%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.description .titulo {
+    font-size: 19px;
+    color: hsl(218, 44%, 22%);
+}
+
+.description .texto {
+    font-size: 19px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding-top: 17px;
+}
